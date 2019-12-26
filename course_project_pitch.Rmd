@@ -1,0 +1,42 @@
+---
+title: "Developing Data Products Project Pitch"
+author: "Maxim Ogarenko"
+date: '26 December 2019'
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## An attempt to write my own Business Intelligence system 
+
+Many small businesses cannot afford the full-scale business intelligence systems, and struggle with obtaining even simple analytical information.
+
+I tried to write a prototype of a simple BI system using some actual sales data at my hand. 
+
+This app visualizes sales of a chain of **three shops** for the period **from 2017-04-11 to 2019-08-01**. 
+
+## User interface  
+
+The user can choose:  
+
+- **dates range** 
+- **shops** to analyze (sorry, the shop names are Cyrillic).
+
+
+## Output
+
+The app builds an **interactive graph** with **monthly sales** of the chosen shops in the chosen time period. 
+
+The sales are in **Russian Rubles**.
+
+## Links
+
+[The Shiny App](https://maxim-ogarenko.shinyapps.io/Developing_Data_Products_Assignmeht/)
+
+[The Github Repo](https://github.com/maxim-ogarenko/DDP_Project)
